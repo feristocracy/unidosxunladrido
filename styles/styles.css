@@ -1,0 +1,34 @@
+* {
+    margin: 1000;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    color: black;
+    background-color: black;
+    background-image: url("../img/bg.jpg");
+}
+
+.pawl {
+    height: 35px;
+    margin-right: 15px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.pawr {
+    height: 35px;
+    margin-left: 15px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
