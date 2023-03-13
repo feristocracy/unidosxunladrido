@@ -68,16 +68,19 @@
 
     <!-- GALERÍA -->
     <div class="d-flex justify-content-center w-100 flex-column" style="align-items: center;">
-        <button type="button" class="fs-2 btn btn-primary btn-lg m-4 p-4" data-bs-toggle="modal" data-bs-target="#amigoscaninos">Amigos
+        <button type="button" class="fs-2 btn btn-primary btn-lg m-4 p-4" data-bs-toggle="modal"
+            data-bs-target="#amigoscaninos">Amigos
             Caninos</button>
-        <button type="button" class="fs-2 btn btn-success btn-lg m-4 p-4" data-bs-toggle="modal" data-bs-target="#esterilizacion">Campañas de
+        <button type="button" class="fs-2 btn btn-success btn-lg m-4 p-4" data-bs-toggle="modal"
+            data-bs-target="#esterilizacion">Campañas de
             Esterilización</button>
-        <button type="button" class="fs-2 btn btn-info btn-lg m-4 p-4" data-bs-toggle="modal" data-bs-target="#videos">Videos</button>
+        <button type="button" class="fs-2 btn btn-info btn-lg m-4 p-4" data-bs-toggle="modal"
+            data-bs-target="#videos">Videos</button>
     </div>
     <!-- /GALERÍA -->
 
     <!-- MODALS -->
-    <div class="modal" id="amigoscaninos">
+    <div class="modal modal-xl" id="amigoscaninos">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -122,7 +125,7 @@
         </div>
     </div>
 
-    <div class="modal" id="esterilizacion">
+    <div class="modal modal-xl" id="esterilizacion">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -163,11 +166,11 @@
         </div>
     </div>
 
-    <div class="modal" id="videos">
+    <div class="modal modal-xl" id="videos">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Campañas de Esterilización</h5>
+                    <h5 class="modal-title">Videos</h5>
 
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"></span>
@@ -175,30 +178,30 @@
                 </div>
                 <div class="modal-body">
                     <div class="d-flex w-100 justify-content-center" style="flex-wrap: wrap; flex-direction: row;">
-                        <video class="mb-3" controls preload="none">
+                        <video class="m-3" controls preload="none">
                             <source src="./img/galeria/WhatsApp Video 2023-01-23 at 1.48.27 PM.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="mb-3" controls preload="none">
+                        <video class="m-3" controls preload="none">
                             <source src="./img/galeria/WhatsApp Video 2023-01-23 at 1.53.11 PM.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="mb-3" controls preload="none">
+                        <video class="m-3" controls preload="none">
                             <source src="./img/galeria/WhatsApp Video 2023-01-23 at 2.06.42 PM.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="mb-3" controls preload="none">
+                        <video class="m-3" controls preload="none">
                             <source src="./img/galeria/WhatsApp Video 2023-01-23 at 2.08.54 PM.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="mb-3" controls preload="none">
+                        <video class="m-3" controls preload="none">
                             <source src="./img/galeria/WhatsApp Video 2023-01-23 at 2.13.20 PM.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick=stopVideo()>Cerrar</button>
                 </div>
             </div>
         </div>
