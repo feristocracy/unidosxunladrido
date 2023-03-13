@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donaciones</title>
+    <title>Donations | Unidos por un Ladrido</title>
+
     <link rel="stylesheet" href="./styles/_variables.scss">
     <link rel="stylesheet" href="./styles/_bootswatch.scss">
     <link rel="stylesheet" href="./styles/bootstrap.css">
@@ -13,9 +14,10 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
-<body>
+<body style="background-image: url(./img/bg.jpg)">
+
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <img src="./img/logos/logo.fw.png" lass="me-auto bd-highlight" style="height: 40px" alt="Logotipo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
@@ -25,33 +27,33 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio
+                        <a class="nav-link active" href="home-en.html">Home
                             <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galería</a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Adopciones</a>
+                            aria-haspopup="true" aria-expanded="false">Adoptions</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="adopcionfisica.html">Adopción Física</a>
-                            <a class="dropdown-item" href="adopcionvirtual.html">Adopción Virtual</a>
+                            <a class="dropdown-item" href="physicaladoption.html">Physical Adoption</a>
+                            <a class="dropdown-item" href="virtualadoption.html">Virtual Adoption</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="donaciones.html">Donaciones</a>
+                        <a class="nav-link" href="donations.html">Donations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <a class="navbar-brand" href="donations.html"><img src="./img/logos/engbutton.png" alt="english language button"
-                        style="height: 20px; margin-right: 4px;">EN</a>
+                <a class="navbar-brand" href="donaciones.html"><img src="./img/logos/esbutton.png"
+                        alt="spanish language button" style="height: 20px; margin-right: 6px;">ES</a>
             </div>
         </div>
     </nav>
@@ -59,7 +61,7 @@
 
     <!-- PORTADA -->
     <div class="d-flex justify-content-center mt-2 mb-4">
-        <img src="./img/logos/donaciones.jpg" alt="donando amor a un perrito" class="w-100"
+        <img src="./img/logos/donationsbaner.jpg" alt="donating love to a puppy" class="w-100"
             style="align-self: center; display: block; max-width: 800px;">
     </div>
     <!-- /PORTADA -->
@@ -71,30 +73,24 @@
         <div class="card border-primary mb-3 w-75" style="border: 3px solid">
             <div class="card-body">
                 <h1 class="card-title mb-3 mt-3 d-flex flex-row justify-content-center"><img src="./img/logos/paw.png"
-                        alt="paw" class="pawl">DONACIONES<img src="./img/logos/paw.png" alt="paw" class="pawr"></h1>
-                <p class="card-text p-4">En "Unidos por un Ladrido A.C." creemos que la unión hace la fuerza, y que la
-                    conciencia de uno se expande y se multiplica a otros, así que toda la ayuda es bienvenida para
-                    continuar nuestra incansable labor día con día. Por ello agradecemos cualquier donación con la que
-                    gustes apoyarnos a la siguiente cuenta bancaria. Ten por seguro que cada peso será utilizado 100% en
-                    la salud, el alimento y el bienestar de los amigos caninos en búsqueda de una familia y hogar.</p>
+                        alt="paw" class="pawl">DONATIONS<img src="./img/logos/paw.png" alt="paw" class="pawr"></h1>
+                <p class="card-text p-4">In "Unidos por un Ladrido A.C." we believe that unity is strength, and that one's awareness expands and multiplies to others, so every help is welcome to continue our tireless work day by day. For this reason, we appreciate any donations with which you like to support us to the following bank account. Be assured that each dollar will be completelly used in the health, food and well-being of our puppy friends who are in search of a family and a home.</p>
             </div>
 
             <div class="card-body">
-                <h4 class="card-title fs-2 mb-3 d-flex flex-row justify-content-center">DEPÓSITO O TRANSFERENCIA</h4>
-                <p class="card-text p-4"><b>BANCO</b></br>XXXXXXXX</br><b>NOMBRE DEL BENEFICIARIO</b></br>Unidos por un
-                    Ladrido A.C.</br><b>CUENTA</b></br>XXXXXXXXXXXX</br><b>CLABE</b></br>XXXXXXXXXXX</br><b>NÚMERO DE
-                        TARJETA</b></br>XXXXXXXXXX</p>
+                <h4 class="card-title fs-2 mb-3 d-flex flex-row justify-content-center">DEPOSIT OR TRANSFER</h4>
+                <p class="card-text p-4"><b>BANK</b></br>XXXXXXXX</br><b>BENEFICIARY NAME</b></br>Unidos por un
+                    Ladrido A.C.</br><b>ACCOUNT</b></br>XXXXXXXXXXXX</br><b>CLABE</b></br>XXXXXXXXXXX</br><b>CARD NUMBER</b></br>XXXXXXXXXX</p>
             </div>
         </div>
     </div>
     <!-- /DONACIONES -->
 
-
     <!-- FOOTER -->
     <footer class="d-flex mt-4 justify-content-center"
         style="background-color: #f5c0bd; position: relative; bottom: 0; width: 100%; flex-wrap: wrap;">
         <div class="card text-white bg-primary mt-3" style="max-width: 20rem; margin: 15px;">
-            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Redes Sociales</div>
+            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Social Networks</div>
             <div class="card-body p-4">
                 <a href="#"><img src="./img/logos/fb.fw.png" alt="logo de facebook" style="height: 50px;"></a>
                 <a href="#"><img src="./img/logos/twitter.fw.png" alt="logo de facebook" style="height: 50px;"></a>
@@ -103,7 +99,7 @@
             </div>
         </div>
         <div class="card text-white bg-primary mt-3" style="max-width: 19rem; margin: 15px;">
-            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Contáctanos</div>
+            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Contact Us</div>
             <div class="card-body p4">
                 <p class="card-text fw-bolder fs-6 mb-0 text-center">Unidos por Un Ladrido A.C.</p>
                 <p class="mb-0 text-center" style="font-size: .8em;">Priv. Álamos número 10, Col. Los Ángeles. Juan, C.
@@ -116,6 +112,7 @@
         </div>
     </footer>
     <!-- /FOOTER -->
+
 
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

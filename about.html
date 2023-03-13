@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes Somos | Unidos por un Ladrido</title>
+    <title>About | Unidos por un Ladrido</title>
+
     <link rel="stylesheet" href="./styles/_variables.scss">
     <link rel="stylesheet" href="./styles/_bootswatch.scss">
     <link rel="stylesheet" href="./styles/bootstrap.css">
@@ -13,9 +14,10 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
-<body>
+<body style="background-image: url(./img/bg.jpg)">
+
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <img src="./img/logos/logo.fw.png" lass="me-auto bd-highlight" style="height: 40px" alt="Logotipo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
@@ -25,33 +27,33 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio
+                        <a class="nav-link active" href="home-en.html">Home
                             <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galería</a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Adopciones</a>
+                            aria-haspopup="true" aria-expanded="false">Adoptions</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="adopcionfisica.html">Adopción Física</a>
-                            <a class="dropdown-item" href="adopcionvirtual.html">Adopción Virtual</a>
+                            <a class="dropdown-item" href="physicaladoption.html">Physical Adoption</a>
+                            <a class="dropdown-item" href="virtualadoption.html">Virtual Adoption</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="donaciones.html">Donaciones</a>
+                        <a class="nav-link" href="donations.html">Donations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <a class="navbar-brand" href="about.html"><img src="./img/logos/engbutton.png" alt="english language button"
-                        style="height: 20px; margin-right: 4px;">EN</a>
+                <a class="navbar-brand" href="quienessomos.html"><img src="./img/logos/esbutton.png"
+                        alt="spanish language button" style="height: 20px; margin-right: 6px;">ES</a>
             </div>
         </div>
     </nav>
@@ -59,7 +61,7 @@
 
     <!-- PORTADA -->
     <div class="d-flex justify-content-center mt-2 mb-4">
-        <img src="./img/quienessomosbaner.fw.png" alt="quienes somos banner" class="w-100"
+        <img src="./img/aboutbaner.fw.png" alt="quienes somos banner" class="w-100"
             style="align-self: center; display: block; max-width: 1000px;">
     </div>
     <!-- /PORTADA -->
@@ -71,49 +73,29 @@
         <div class="card border-primary mb-3 w-75" style="border: 3px solid">
             <div class="card-body">
                 <h4 class="card-title fs-2 mb-3 d-flex flex-row justify-content-center"><img src="./img/logos/paw.png"
-                        alt="paw" class="pawl">QUIÉNES SOMOS<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
-                <p class="card-text p-2">Somos una Asociacion Civil sin fines de lucro que nace con el transcurso
-                    del tiempo
-                    por la demanda de nuestros amigos los caninos. Antes de habernos consolidado como una A.C. nosotros
-                    con nuestros propíos recursos acogíamos a nuestros amigos caninos de la calle , los rescatábamos,
-                    esterilizábamos, operábamos, medicábamos etc… pero al ver la alta demanda de nuestros amigos tomamos
-                    la decisión de formalizarnos como una A.C. para poder seguir ayudando a nuestros amigos caninos en
-                    todo territorio Poblano asi como en todo Mexico y de ser posible en el extranjero.</p>
+                        alt="paw" class="pawl">ABOUT<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
+                <p class="card-text p-2">We are a Benefit Foundation based in Puebla , Mexico; We born because of the Demand of our Puppies friends. Before we create the Benefit Foundation we rescue our puppies friends with our own resources but as the demand keep growing we decide to formalize as a Benefit Foundation so we can grow and help much more  puppies friends in Puebla , all Mexico and if possible  World wide.</p>
             </div>
         </div>
         <div class="card border-success mb-3 w-75" style="border: 3px solid">
             <div class="card-body">
                 <h4 class="card-title fs-2 mb-3 d-flex flex-row justify-content-center"><img src="./img/logos/paw.png"
-                        alt="paw" class="pawl">MISIÓN<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
-                <p class="card-text p-2">Nuestra Misión ahora que ya somos una AC Donataria es hacer alianzas con
-                    otras
-                    Fundaciones para seguir apoyando a nuestros amigos los caninos y asi seguir creciendo esta familia
-                    de la misma manera trabajar en conjunto con empresas, persona, gobierno y toda aquella dependencia
-                    privada o de gobierno y Organizaciones que busquen apoyar a esta gran familia ayuadandonos todos en
-                    conjunto con lo que cada uno de nosotros quiera aportar ya sea incluso en especie.</p>
+                        alt="paw" class="pawl">OUR MISSION<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
+                <p class="card-text p-2">Our mission is to do strategic aliances with other Foundations, companies, government, organizations that want to help our puppies friends so we can keep growing and growing as the big family we wanted to be and any of above mention wanted to give any donations</p>
             </div>
         </div>
         <div class="card border-danger mb-3 w-75" style="border: 3px solid">
             <div class="card-body">
                 <h4 class="card-title fs-2 mb-3 d-flex flex-row justify-content-center"><img src="./img/logos/paw.png"
-                        alt="paw" class="pawl">VISIÓN<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
-                <p class="card-text p-2">UNIDOS POR UN LADRIDO A.C. busca ser una Donataria sostenible, respetuosa
-                    con el
-                    apoyo de todos aquellos que se quieran unir a esta gran FAMILIA para poder ser una de las
-                    Dontatarias mas solidarias y humanas con nuestros amigos los caninos y de esta forma seguir apoyando
-                    y rescatando a estos amigos que tanto lo necesitan.</p>
+                        alt="paw" class="pawl">OUR VISION<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
+                <p class="card-text p-2">UNIDOS POR UN LADRIDO A.C. Is looking to be an own mantainance benefit foundation and  respectfull BENEFIT FUNDATION with the support of anyone who wanted to contribute and help our puppies friends wich is the main goal the benefit of our friends, so we can gave them food, medications, nurse and keep rescue them from the streets so they can have their space with all the above mention so they can be part of the society and part of us and being treated as they are humans with respect and dignity.</p>
             </div>
         </div>
         <div class="card border-info mb-3 w-75" style="border: 3px solid">
             <div class="card-body">
                 <h4 class="card-title fs-2 mb-3 d-flex flex-row justify-content-center"><img src="./img/logos/paw.png"
-                        alt="paw" class="pawl">OBJETIVOS<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
-                <p class="card-text p-2">El Objetivo principal de UNIDOS POR UN LADRIDO AC es el bientestar de cada
-                    uno de
-                    los caninos ya que son seres con muchísimos sentimientos, bondad e incluso humanismo es darle a cada
-                    uno de ellos la atención que se merece en este mundo y que sean y seamos todos Felices que es
-                    objetivo principal de ellos y nosotros y que lleven una vida digna como cualquier ser humano, asi
-                    como tener presencia a nivel nacional e internacional.</p>
+                        alt="paw" class="pawl">GOALS<img src="./img/logos/paw.png" alt="paw" class="pawr"></h4>
+                <p class="card-text p-2">The main Goal from us UNIDOS POR UN LADRIDO A.C. is the comfort of each of our puppies friend as they have  feelings and humanism . Also each of them to have the attention they deserve in this world and see them happy with quality and dignify life.</p>
             </div>
         </div>
 
@@ -124,7 +106,7 @@
     <footer class="d-flex mt-4 justify-content-center"
         style="background-color: #f5c0bd; position: relative; bottom: 0; width: 100%; flex-wrap: wrap;">
         <div class="card text-white bg-primary mt-3" style="max-width: 20rem; margin: 15px;">
-            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Redes Sociales</div>
+            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Social Networks</div>
             <div class="card-body p-4">
                 <a href="#"><img src="./img/logos/fb.fw.png" alt="logo de facebook" style="height: 50px;"></a>
                 <a href="#"><img src="./img/logos/twitter.fw.png" alt="logo de facebook" style="height: 50px;"></a>
@@ -133,7 +115,7 @@
             </div>
         </div>
         <div class="card text-white bg-primary mt-3" style="max-width: 19rem; margin: 15px;">
-            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Contáctanos</div>
+            <div class="card-header text-center" style="font-weight: bold; font-size: 1em;">Contact Us</div>
             <div class="card-body p4">
                 <p class="card-text fw-bolder fs-6 mb-0 text-center">Unidos por Un Ladrido A.C.</p>
                 <p class="mb-0 text-center" style="font-size: .8em;">Priv. Álamos número 10, Col. Los Ángeles. Juan, C.
@@ -146,6 +128,7 @@
         </div>
     </footer>
     <!-- /FOOTER -->
+
 
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
